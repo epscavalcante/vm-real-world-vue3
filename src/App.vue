@@ -1,4 +1,5 @@
 <template>
+  <h1>Real World App VueJS 3</h1>
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
@@ -22,6 +23,10 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 #nav a.router-link-exact-active {
